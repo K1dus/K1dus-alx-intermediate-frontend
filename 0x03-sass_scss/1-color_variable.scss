@@ -1,0 +1,11 @@
+// 1-color_variable.scss
+
+$text-color: #3D3D3D; // Define the Sass variable for the color
+
+body {
+  color: $text-color; // Use the variable in the body tag
+}
+
+p {
+  color: $text-color; // Use the variable in the p tag
+}
