@@ -1,0 +1,17 @@
+// 3-mixin_margins.scss
+
+// Define a mixin for margin-left and margin-right
+@mixin margin-x($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+// Apply the mixin to the body tag
+body {
+  @include margin-x(10px);
+}
+
+// Apply the mixin to the div tag
+div {
+  @include margin-x(15px);
+}
